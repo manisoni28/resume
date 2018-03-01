@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <script type="text/javascript" src="requestAnimationFrame-polyfill.js"></script>
+        <script type="text/javascript" src="client.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="prompt-box" class="popup">
+            <p id="prompt-box-question"></p>
+            <p id="prompt-box-validation-error" class="error"></p>
+            <input id="prompt-box-input" type="text"></input>
+            <button id="prompt-box-ok-button">OK</button>
+        </div>
+
+        <div id="alert-box" class="popup">
+            <p id="alert-box-message"></p>
+            <button id="alert-box-ok-button">OK</button>
+        </div>
+
+        <button id="new-game">New Game</button>
+        <br>
+        <canvas id="canvas" width="640" height="480"></canvas>
+        <br>
+        <button id="move-left">Move Left</button>
+        <button id="move-right">Move Right</button>
+        <br>
+        <button id="aim-left">Aim Left</button>
+        <button id="aim-right">Aim Right</button>
+        <br>
+        <button id="fire">Fire!</button>
+    </body>
+</html>

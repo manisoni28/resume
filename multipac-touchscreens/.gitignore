@@ -1,0 +1,8 @@
+node_modules/
+bower_components/
+.psci_modules/
+.psci
+bin/
+output/
+dist/
+server.log
